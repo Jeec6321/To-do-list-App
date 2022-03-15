@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">To do list</string>
+    <string name="title_tasks">Tasks</string>
+    <string name="title_purchases">Purchases</string>
+    <string name="title_done">Done</string>
+    <string name="generic_date">2021-10-18 11:35:00</string>
+    <string name="search">Search...</string>
+
+    <!-- Login Activity-->
+    <string name="user_">User:</string>
+    <string name="password_">Password:</string>
+    <string name="login">Login</string>
+
+
+    <string name="pending_counter">Pending: %1$s</string>
+    <string name="done_counter">Finished: %1$s</string>
+    <string name="nav_tasks">Tasks</string>
+    <string name="nav_purchases">Purchases</string>
+    <string name="nav_done">Done</string>
+
+    <!-- Dialog new task -->
+    <string name="task_name_">Task name:</string>
+    <string name="name">Name</string>
+    <string name="task_description_">Task description:</string>
+    <string name="type">Type</string>
+    <string name="task">Task</string>
+    <string name="purchase">purchase</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Done fragment -->
+    <string name="task_deleted">Task deleted successfully</string>
+    <string name="error_to_detele_task">Error to delete task</string>
+
+</resources>

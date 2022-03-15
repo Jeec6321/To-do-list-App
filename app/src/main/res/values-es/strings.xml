@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Pendientes</string>
+    <string name="title_tasks">Tareas</string>
+    <string name="title_purchases">Compras</string>
+    <string name="title_done">Hecho</string>
+    <string name="generic_date">2021-10-18 11:35:00</string>
+    <string name="search">Buscar...</string>
+
+    <!-- Login Activity-->
+    <string name="user_">Usuario:</string>
+    <string name="password_">Contraseña:</string>
+    <string name="login">Iniciar sesión</string>
+
+
+    <string name="pending_counter">Pendientes: %1$s</string>
+    <string name="done_counter">Terminados: %1$s</string>
+    <string name="nav_tasks">Tareas</string>
+    <string name="nav_purchases">Compras</string>
+    <string name="nav_done">Hecho</string>
+
+    <!-- Dialog new task -->
+    <string name="task_name_">Nombre de la tarea:</string>
+    <string name="name">Nombre</string>
+    <string name="task_description_">Descripción:</string>
+    <string name="type">Tipo</string>
+    <string name="task">Tarea</string>
+    <string name="purchase">Compra</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+
+    <!-- Done fragment -->
+    <string name="task_deleted">Tarea eliminada existosamente</string>
+    <string name="error_to_detele_task">Error al eliminar la tarea</string>
+
+</resources>

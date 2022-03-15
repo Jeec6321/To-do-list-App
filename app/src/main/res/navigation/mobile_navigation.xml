@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_tasks">
+
+    <fragment
+        android:id="@+id/navigation_tasks"
+        android:name="com.android.todolist.ui.tasks.TasksFragment"
+        android:label="@string/title_tasks"
+        tools:layout="@layout/fragment_tasks" />
+
+    <fragment
+        android:id="@+id/navigation_purchases"
+        android:name="com.android.todolist.ui.purchases.PurchasesFragment"
+        android:label="@string/title_purchases"
+        tools:layout="@layout/fragment_purchases" />
+
+    <fragment
+        android:id="@+id/navigation_analytics"
+        android:name="com.android.todolist.ui.analytics.DoneFragment"
+        android:label="@string/title_done"
+        tools:layout="@layout/fragment_analytics" />
+
+    <activity
+        android:id="@+id/splashActivity"
+        android:name="com.android.todolist.ui.activities.SplashActivity"
+        android:label="SplashActivity" />
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.android.todolist.ui.activities.LoginActivity"
+        android:label="LoginActivity" />
+
+</navigation>
